@@ -1,5 +1,4 @@
 // vue.config.js
 module.exports = {
-    devServer: {
-    }
+    transpileDependencies:[/node_modules[/\\\\]vuetify[/\\\\]/]
   }

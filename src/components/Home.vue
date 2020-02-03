@@ -77,7 +77,7 @@
                       href="https://en.wikipedia.org/wiki/Wilks_Coefficient"
                     >see here</a>), the new formula has changed 500 to 600, this results in a largely different coefficient despite the formula not changing a large amount.
                   </span>
-                </v-tooltip>the constant in the formula did not change from 500 to 600 your wilks would be:
+                </v-tooltip> If the constant in the formula did not change from 500 to 600 your wilks would be:
               </p>
             </v-row>
             <v-row v-if="wilks2 != null" align="center" justify="center">
