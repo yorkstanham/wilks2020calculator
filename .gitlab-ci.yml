@@ -1,3 +1,4 @@
 deploy:
+  image: node:10
   script:
     - npm run build && aws s3 sync ./dist s3://www.wilks2020calculator.com
