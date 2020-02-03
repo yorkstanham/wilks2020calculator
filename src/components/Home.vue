@@ -104,7 +104,7 @@
                 >{{this.percentageChangeText}}</p>
               </div>
             </v-row>
-            <p style="text-align: center; color: white; font-size: 12px">Log issues at the <a href="https://gitlab.com/yorkstanham/wilksv2/issues">gitlab project</a></p>
+            <p style="text-align: center; color: white; font-size: 12px">Log any issues at the <a href="https://gitlab.com/yorkstanham/wilksv2/issues">gitlab project</a></p>
           </v-col>
         </v-row>
       </v-container>
