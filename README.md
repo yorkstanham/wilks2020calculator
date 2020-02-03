@@ -1,4 +1,4 @@
-# weddingwebsite
+# Wilks v2 Website
 
 ## Project setup
 ```
