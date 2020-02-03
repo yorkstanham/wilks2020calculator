@@ -1,4 +1,4 @@
-# Wilks v2 Website
+# Wilks 2020 Website
 
 ## Project setup
 ```
