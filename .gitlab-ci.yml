@@ -5,8 +5,6 @@ stages:
 build:
   image: node:10.15.0-stretch
   stage: build
-  only:
-    - tags
   script:
     # Install vuecli
     - npm install -g @vue/cli@latest
@@ -23,8 +21,6 @@ build:
 deploy:
   image: python:latest
   stage: deploy
-  only:
-    - tags
   script:
     - pip install awscli
     - aws s3 sync ./dist s3://www.wilks2020calculator.com
