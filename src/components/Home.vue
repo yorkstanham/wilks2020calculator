@@ -10,7 +10,7 @@
             <v-card class="elevation-12">
               <v-toolbar color="black" dark flat>
                 <v-spacer />
-                <v-toolbar-title>Wilks v2 Calculator</v-toolbar-title>
+                <v-toolbar-title>Wilks 2020 Calculator</v-toolbar-title>
                 <v-spacer />
               </v-toolbar>
               <v-card-text style="padding: 10px 60px 10px 50px">
