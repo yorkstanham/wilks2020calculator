@@ -72,9 +72,7 @@
                     <v-icon color="white" v-on="on">mdi-information-outline</v-icon>
                   </template>
                   <span>
-                    The old wilks coefficient is calculated by dividing 500 by a value calculated using your bodyweight (
-                    <a
-                      href="https://en.wikipedia.org/wiki/Wilks_Coefficient"
+                    The old wilks coefficient is calculated by dividing 500 by a value calculated using your bodyweight (<a style="color: white" href="https://en.wikipedia.org/wiki/Wilks_Coefficient"
                     >see here</a>), the new formula has changed 500 to 600, this results in a largely different coefficient despite the formula not changing a large amount.
                   </span>
                 </v-tooltip> If the constant in the formula did not change from 500 to 600 your wilks would be:
@@ -104,7 +102,7 @@
                 >{{this.percentageChangeText}}</p>
               </div>
             </v-row>
-            <p style="text-align: center; color: white; font-size: 12px">Log any issues at the <a href="https://gitlab.com/yorkstanham/wilksv2/issues">gitlab project</a></p>
+            <p style="text-align: center; color: white; font-size: 12px">Log any issues at the <a style="color: white" href="https://gitlab.com/yorkstanham/wilksv2/issues">gitlab project</a></p>
           </v-col>
         </v-row>
       </v-container>
