@@ -2,7 +2,7 @@ stages:
   - build
   - deploy
 
-build prod:
+build:
   image: node:10.15.0-stretch
   stage: build
   only:
@@ -20,7 +20,7 @@ build prod:
       - dist/
     expire_in: 1 hour
 
-deploy prod:
+deploy:
   image: python:latest
   stage: deploy
   only:
